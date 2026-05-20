@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mello’s Planet | Eco-Conscious Dog Products</title>
+  <style>
+    :root {
+      --green-dark: #06451f;
+      --green: #4f9b35;
+      --green-soft: #eaf5e7;
+      --cream: #fbfaf5;
+      --text: #183322;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 28px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: white;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    .logo {
+      height: 70px;
+    }
+
+    .contact-link {
+      color: var(--green-dark);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .hero {
+      min-height: 80vh;
+      padding: 80px 8%;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      line-height: 1;
+      color: var(--green-dark);
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 620px;
+      margin-bottom: 34px;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--green-dark);
+      color: white;
+      padding: 16px 28px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .hero-card {
+      background: white;
+      padding: 42px;
+      border-radius: 32px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    }
+
+    .hero-card img {
+      width: 100%;
+      margin-bottom: 28px;
+    }
+
+    .hero-card h2 {
+      color: var(--green-dark);
+      margin-bottom: 12px;
+    }
+
+    section {
+      padding: 80px 8%;
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      color: var(--green-dark);
+      margin-bottom: 18px;
+    }
+
+    .section-intro {
+      max-width: 780px;
+      font-size: 1.15rem;
+      margin-bottom: 44px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .card {
+      background: white;
+      padding: 32px;
+      border-radius: 28px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.06);
+    }
+
+    .card h3 {
+      color: var(--green-dark);
+      margin-bottom: 12px;
+      font-size: 1.35rem;
+    }
+
+    .highlight {
+      background: var(--green-soft);
+      border-radius: 36px;
+      margin: 0 8%;
+      padding: 70px;
+      text-align: center;
+    }
+
+    .highlight h2 {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      color: var(--green-dark);
+      margin-bottom: 20px;
+    }
+
+    .highlight p {
+      max-width: 780px;
+      margin: 0 auto 34px;
+      font-size: 1.15rem;
+    }
+
+    footer {
+      padding: 40px 8%;
+      text-align: center;
+      color: #55705e;
+    }
+
+    @media (max-width: 850px) {
+      header {
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .highlight {
+        margin: 0;
+        border-radius: 0;
+        padding: 60px 8%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="Mello’s Planet logo" class="logo" />
+    <a href="mailto:hello@mellosplanet.com" class="contact-link">Partner Inquiries</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Eco-conscious dog products for a cleaner, happier planet.</h1>
+        <p>
+          Mello’s Planet is an emerging pet lifestyle brand focused on thoughtful,
+          sustainable products for dogs and the people who love them.
+        </p>
+        <a href="mailto:hello@mellosplanet.com" class="button">Contact Us</a>
+      </div>
+
+      <div class="hero-card">
+        <img src="logo.png" alt="Mello’s Planet brand mark" />
+        <h2>Built for responsible pet parents.</h2>
+        <p>
+          Our brand is designed around clean presentation, practical products,
+          eco-conscious positioning, and long-term retail potential.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">A brand with room to grow</h2>
+      <p class="section-intro">
+        Mello’s Planet is being developed as a premium yet approachable line of
+        environmentally mindful dog products, with a focus on strong branding,
+        scalable fulfillment, and customer trust.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Eco-conscious positioning</h3>
+          <p>
+            Products will be selected with sustainability, usefulness, and modern
+            pet-parent values in mind.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Amazon-first launch plan</h3>
+          <p>
+            The initial growth strategy is built around marketplace validation,
+            efficient advertising, and careful inventory control.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Partner-ready operations</h3>
+          <p>
+            We are actively preparing fulfillment, storage, shipping, and logistics
+            systems before launch.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <h2>Seeking reliable logistics partners</h2>
+      <p>
+        We are interested in working with 3PL partners who can support receiving,
+        storage, pick-and-pack, Amazon-compliant fulfillment, branded inserts,
+        returns, and future ecommerce expansion.
+      </p>
+      <a href="mailto:hello@mellosplanet.com" class="button">Start a Conversation</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Mello’s Planet. Eco-conscious dog products.
+  </footer>
+</body>
+</html>
